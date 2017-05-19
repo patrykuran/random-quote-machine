@@ -1,0 +1,78 @@
+body {
+	background: #233034;
+	font-family: 'Raleway', sans-serif;
+	color: #A8E1FF;
+	letter-spacing: 1.5px;
+}
+
+main {
+	max-width: 1900px;
+}
+
+
+h1 {
+	text-align: center;
+    margin: 100px 0;
+    font-size: 70px;
+}
+
+.box {
+	width: 800px;
+	margin: 150px auto;
+	text-align: center;
+
+}
+
+.fa-quote-right {
+	float: left;
+	margin-right: 10px;
+}
+
+.fa-quote-left {
+	float: right;
+	margin-left: 10px;
+} 
+
+h2 {
+	font-size: 35px;
+	line-height: 1.4;
+	margin-bottom: 75px;
+}
+
+.buttons {
+	margin: 0 auto;
+	width: 500px;
+	text-align: center;
+	margin-top: 150px;
+}
+
+a, button {
+	display: inline-block;
+	text-align: center;
+	background-color: transparent;
+	border: 1px solid #A8E1FF;
+    color: #A8E1FF;
+    text-decoration: none;
+    line-height: 35px;
+    padding: 0;
+    font-size: 25px;
+    font-family: inherit;
+}
+
+a:hover, button:hover {
+	background-color: #A8E1FF;
+	color: #233034;
+	cursor: pointer;
+}
+
+a {	
+	width: 218px;
+    height: 37px;
+}
+
+button {	
+	width: 220px;
+    height: 40px;
+    margin-bottom: 20px;
+    outline: 0; 		/* usuwa poświatę wokół przycisku */
+}
