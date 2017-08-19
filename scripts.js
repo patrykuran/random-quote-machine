@@ -23,7 +23,7 @@ function createTweet(input) {
     if (tweetText.length > 140) {
     	getQuote();
     } else {
-    	var tweet = tweetLink + encodeURIComponent(tweetText); // encodeURIComponent <- a co to?!
+    	var tweet = tweetLink + encodeURIComponent(tweetText); // encodeURIComponent <- This function encodes special characters. In addition, it encodes the following characters: , / ? : @ & = + $ #
     	$('.quote').text(quoteText);
     	$('.author').text("author: " + quoteAuthor);
     	$('.tweet').attr('href', tweet);
